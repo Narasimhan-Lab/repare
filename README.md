@@ -4,7 +4,7 @@
 
 ### Recommended
 ```
-curl -O https://raw.githubusercontent.com/ehuangc/repare/main/repare-environment.yml
+curl -O https://raw.githubusercontent.com/Narasimhan-Lab/repare/main/repare-environment.yml
 conda env create -f repare-environment.yml
 conda activate repare
 ```
