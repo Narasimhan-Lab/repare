@@ -29,7 +29,7 @@ repare -n NODES -r RELATIONS [-o OUTPUT] [-m MAX_CANDIDATE_PEDIGREES] [-e EPSILO
 > ```
 > repare -n nodes.csv -r relations.csv
 > ```
-> For example data inputs, see [examples/nodes.csv](https://github.com/ehuangc/repare/blob/main/examples/nodes.csv) and [examples/relations.csv](https://github.com/ehuangc/repare/blob/main/examples/relations.csv).
+> For example data inputs, see [examples/nodes.csv](https://github.com/Narasimhan-Lab/repare/blob/main/examples/nodes.csv) and [examples/relations.csv](https://github.com/Narasimhan-Lab/repare/blob/main/examples/relations.csv).
 
 ### Inputs
 **Nodes** (-n) (*required*): Path to a CSV file that contains information about the individuals to be analyzed by repare. 
@@ -84,7 +84,7 @@ repare -n NODES -r RELATIONS [-o OUTPUT] [-m MAX_CANDIDATE_PEDIGREES] [-e EPSILO
 > Run `repare --print-allowed-constraints` to print a list of allowed relation constraint strings directly from the CLI.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ehuangc/repare/main/examples/algorithm_diagram.svg" alt="Reconstruction Process Diagram" />
+  <img src="https://raw.githubusercontent.com/Narasimhan-Lab/repare/main/examples/algorithm_diagram.svg" alt="Reconstruction Process Diagram" />
   <br>
   <em>Diagram of repare's pedigree reconstruction process</em>
 </p>
@@ -92,7 +92,7 @@ repare -n NODES -r RELATIONS [-o OUTPUT] [-m MAX_CANDIDATE_PEDIGREES] [-e EPSILO
 ## Reproducibility
 We recommend using [Pixi](https://pixi.sh/) to reproduce the results in this repo.
 ```
-git clone https://github.com/ehuangc/repare.git
+git clone https://github.com/Narasimhan-Lab/repare.git
 cd repare
 pixi shell
 ```
@@ -105,18 +105,20 @@ exit
 To install Pixi, see [this page](https://pixi.sh/latest/installation/).
 
 ## Citation
-If you use repare in your work, please cite our preprint:
+If you use repare in your work, please cite our paper:
 
-> Huang, E. C., Li, K. A., & Narasimhan, V. M. (2025). Fault-tolerant pedigree reconstruction from pairwise kinship relations. bioRxiv. [https://doi.org/10.1101/2025.08.21.671608](https://doi.org/10.1101/2025.08.21.671608)
+> Huang, E. C., Li, K. A., & Narasimhan, V. M. (2026). Fault-tolerant pedigree reconstruction from pairwise kinship relations. *Bioinformatics*, 42(6), btag251. [https://doi.org/10.1093/bioinformatics/btag251](https://doi.org/10.1093/bioinformatics/btag251)
 
 ```
-@article{repare_preprint2025,
-  doi     = {10.1101/2025.08.21.671608},
+@article{repare2026,
+  doi     = {10.1093/bioinformatics/btag251},
   author  = {Huang, Edward C. and Li, Kevin A. and Narasimhan, Vagheesh M.},
   title   = {Fault-tolerant pedigree reconstruction from pairwise kinship relations},
-  journal = {bioRxiv},
-  month   = {aug},
-  year    = {2025},
-  url     = {https://doi.org/10.1101/2025.08.21.671608},
+  journal = {Bioinformatics},
+  volume  = {42},
+  number  = {6},
+  pages   = {btag251},
+  year    = {2026},
+  url     = {https://doi.org/10.1093/bioinformatics/btag251},
 }
 ```

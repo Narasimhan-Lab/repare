@@ -21,7 +21,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 [project.urls]
-Source = "https://github.com/ehuangc/repare"
+Source = "https://github.com/Narasimhan-Lab/repare"
 
 [project.optional-dependencies]
 benchmark = ["scikit-learn", "seaborn"]

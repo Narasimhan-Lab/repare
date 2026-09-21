@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 type: software
 title: "repare"
-message: "If you use repare in your work, please cite our preprint below!"
+message: "If you use repare in your work, please cite our paper below!"
 authors:
   - family-names: Huang
     given-names: Edward C.
@@ -12,7 +12,7 @@ authors:
   - family-names: Narasimhan
     given-names: Vagheesh M.
     orcid: https://orcid.org/0000-0001-8651-8844
-repository-code: "https://github.com/ehuangc/repare"
+repository-code: "https://github.com/Narasimhan-Lab/repare"
 
 preferred-citation:
   type: article
@@ -24,8 +24,11 @@ preferred-citation:
       given-names: Kevin A.
     - family-names: Narasimhan
       given-names: Vagheesh M.
-  journal: "bioRxiv"
-  status: preprint
-  date-published: 2025-08-26
-  doi: 10.1101/2025.08.21.671608
-  url: "https://doi.org/10.1101/2025.08.21.671608"
+  journal: "Bioinformatics"
+  volume: 42
+  issue: "6"
+  start: "btag251"
+  year: 2026
+  date-published: 2026-05-04
+  doi: 10.1093/bioinformatics/btag251
+  url: "https://doi.org/10.1093/bioinformatics/btag251"
